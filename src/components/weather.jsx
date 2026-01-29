@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./weather.css";
+import "./Weather.css";
 
 const Weather = () => {
   const [city, setCity] = useState("");
@@ -74,3 +74,4 @@ const Weather = () => {
 
 
 export default Weather;
+
