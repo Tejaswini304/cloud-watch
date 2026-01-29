@@ -6,7 +6,7 @@ const Weather = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState("");
 
-  const apiKey = "166b880b77e187d9040f1af6c6707e04";
+  const apiKey = "95221a942990bfff4b8c1d5b5ea0c663";
 
   const getWeather = async () => {
     if (!city) {
@@ -74,4 +74,5 @@ const Weather = () => {
 
 
 export default Weather;
+
 
